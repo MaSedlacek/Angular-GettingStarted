@@ -4,8 +4,7 @@ import { Subscription, filter } from "rxjs";
 import { ProductService } from "./product.service";
 
 
-@Component({
-    selector: 'pm-products',
+@Component({    
     templateUrl: './product-list.component.html',
     styleUrls: ['./product-list.component.css']
 })
